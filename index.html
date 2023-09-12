@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Landing page</title>
+</head>
+
+<body>
+    <div class="container" id="home">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/Logo.png" alt="logo image">
+                </a>
+            </div>
+            <div class="menu-btn">
+                <input type="checkbox" id="toggle">
+                <label for="toggle" style="font-size: 20px;cursor: pointer;">&#9776</label>
+                <nav class="navigation-mb">
+                    <ul class="items">
+                        <li class="item"><a href="#home" class="link">Home</a></li>
+                        <li class="item"><a href="#skills" class="link">My skills</a></li>
+                        <li class="item"><a href="#work" class="link">My work</a></li>
+                        <li class="item"><a href="#contact" class="link">Contact me</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu">
+                <ul class="items">
+                    <li class="item active"><a href="#home">Home</a></li>
+                    <li class="item"><a href="#">Portfolio</a></li>
+                    <li class="item"><a href="#">About me</a></li>
+                    <li class="item"><a href="#">Testimonials</a></li>
+                </ul>
+            </div>
+            <div class="btn">
+                <button class="contact-btn" type="button">Contact Me</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <div class="main">
+                <h5 class="hello">Hey, I am John</h5>
+                <h1 class="my-info">I create <span>product design</span> <br> and brand experience</h1>
+                <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
+                    eros elementum tristique.</p>
+                <button class="get">Get In Touch</button>
+            </div>
+            <div class="image">
+                <img src="img/Group 11 1.png" alt="my-image ">
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="skills">
+        <h5 class="my-skills">My Skills</h5>
+        <h3 class="expert">My Expertise</h3>
+        <ul class="box-itmes">
+            <li class="item-skill skill">
+                <img src="img/Strategy & Direction.png" alt="str img">
+                <h4 class="skill-name">Strategy & Direction</h4>
+                <p class="skill-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                    in eros elementum tristique.</p>
+            </li>
+            <li class="item-skill">
+                <img src="img/Branding & Logo.png" alt="brand img">
+                <h4 class="skill-name">Branding & Logo</h4>
+                <p class="skill-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                    in eros elementum tristique.</p>
+            </li>
+            <li class="item-skill">
+                <img src="img/UI & UX Design.png" alt="UX image">
+                <h4 class="skill-name">UI & UX Design</h4>
+                <p class="skill-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                    in eros elementum tristique.</p>
+            </li>
+            <li class="item-skill">
+                <img src="img/Webflow Development.png" alt="web img">
+                <h4 class="skill-name">Webflow Development</h4>
+                <p class="skill-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                    in eros elementum tristique.</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container" id="contact">
+        <div class="messege">
+            <h5 class="send">Get In Touch</h5>
+            <h2 class="send-me">Contact me</h2>
+            <p class="send-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <ul class="inputs">
+                <li class="input-item"><label class="label" for="name">First name</label><input class="input"
+                        type="text" id="name"></li>
+                <li class="input-item"><label class="label" for="name2">Last name</label><input class="input"
+                        type="text" id="name2"></li>
+                <li class="input-item"><label class="label" for="name3">Email</label><input class="input" type="email"
+                        id="name3"></li>
+                <li class="input-item"><label class="label" for="name4">Phone number</label><input class="input"
+                        type="number" id="name4"></li>
+            </ul>
+            <div class="text">
+                <div class="input-mes">
+                    <label for="topic">Choose a topic</label>
+                    <select name="topic" id="topic">
+                        <option value="Select one" disabled selected>Select one</option>
+                        <option value="senior">SENIOR</option>
+                        <option value="middle">MIDDLE</option>
+                        <option value="junior">JUNIOR</option>
+                    </select>
+                </div>
+                <div class="input-mes">
+                    <label for="send">Message</label>
+                    <textarea name="send" id="send" cols="101" rows="15" placeholder="Type your message..."></textarea>
+                    <label class="chekbox" for="accept"><input type="checkbox" name="reset" id="accept">I accept the
+                        terms</label>
+                </div>
+                <div class="btn-submit">
+                    <button class="submit" type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="footer">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/Logo.png" alt="logo image">
+                </a>
+            </div>
+            <div class="menu">
+                <ul class="items">
+                    <li class="item active"><a href="#">Home</a></li>
+                    <li class="item"><a href="#">Portfolio</a></li>
+                    <li class="item"><a href="#">About me</a></li>
+                    <li class="item"><a href="#">Contact</a></li>
+                    <li class="item"><a href="#">Testimonials</a></li>
+                    <li class="item"><a href="#">Portfolio</a></li>
+                </ul>
+
+            </div>
+            <div class="icons">
+                <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+                <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <hr style="width:97.6%; margin-top: 83px;">
+            <div class="policy">
+                <p class="prival">Made with 💖 by Airdokan</p>
+                <ul class="cooks">
+                    <li class="cook"><a href="#">Privacy Policy</a></li>
+                    <li class="cook"><a href="#">Terms of Service</a></li>
+                    <li class="cook"><a href="#">Cookies Settings</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
